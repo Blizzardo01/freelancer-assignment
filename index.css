@@ -1,4 +1,31 @@
 #app {
+ margin: 1rem;
  display: grid;
  place-items: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th {
+  background-color: #2c3e50;
+  color: white;
+  padding: 12px;
+}
+
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+tr:hover {
+  background-color: #eef6ff;
 }
